@@ -1,0 +1,248 @@
+@media only screen and (min-width : 120px) {
+.body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    background: #fff;
+    display: block;  
+
+    
+}
+.container {
+  display: flex;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  margin: auto;
+  width: auto;
+  max-width: 584px;
+  box-shadow: none;
+  border-radius: 24px;
+}
+.logo1 {
+  height: 100%;
+  margin-top: 200px;
+}
+.logo {
+  max-height: 92px;
+  position: relative;
+
+  flex-shrink: 0;
+  box-sizing: border-box;
+  min-height: 150px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  padding-left: 32px;
+  box-sizing: border-box;
+  height: 48px;
+  line-height: normal;
+  padding: 0 4px;
+  justify-content: flex-end;
+  vertical-align: middle;
+  white-space: nowrap;  
+  align-items: center;
+  display: flex;  
+}
+#app{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+   
+    display: inline-block;
+   
+    height: 15px;
+    width: 15px;
+}
+.headerli a:hover {
+  text-decoration: underline;
+}
+.kutu {
+  display: flex;
+  padding: 5px 8px 0 14px;
+  height: 43, 99px;
+  width: 417, 78px;
+}
+.buyutec {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  display: inline-block;
+  position: relative;
+}
+#text {
+  border: none;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  display: flex;
+  -webkit-tab-highlight-color: transparent;
+  outline: none;
+  margin-top: -37px;
+  height: 34px;
+  width: 238, 924px;
+  font-size: 16px;
+  flex: 100%;
+}
+
+.google {
+  --ntp-logo-height: 200px;
+  display: none;
+  forced-color-adjust: none;
+  height: 92px;
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  min-height: var(--ntp-logo-height);
+}
+
+.inputtype {
+  height: 34px;
+  width: 400px;
+  font-size: 16px;
+  flex: 100%;
+  display: block;
+  border:none;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: pre;
+  color: transparent;
+}
+
+#search {
+  border: none;
+  display: inline;
+  height: 238, 924px;
+  width: 33, 393px;
+}
+
+.klavye {
+  flex: auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #20212455;
+}
+
+.voiceUst {
+  flex: 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: middle;
+  border: 10;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  height: 24px;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+}
+.buyutec {
+  margin-top: -5px;
+  padding-right: 13px;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #202124;
+}
+
+.buyutec1 {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  color: #9aa0a6;
+  display: inline-block;
+  fill: currentColor;
+  position: relative;
+}
+.distance{
+    height: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;   
+
+}
+
+.f1{
+    
+    padding: 17px;
+    font-size: 14px;
+    color: #70757a;      
+    background-color:#f2f2f2;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+
+}
+.navbar{
+    display: inline;
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+
+}
+ul {
+   display: block;
+   padding: 15px;
+   white-space: nowrap;
+ }
+ .active {
+    background-color: #4CAF50;
+    color: white;
+ }
+ li {
+    border-bottom: 1px solid #555;
+    display: inline;
+ }
+ a {
+    color: #70757a;  
+    text-decoration: none;
+}
+#karbon{
+    float: left;
+}
+#f2{   margin-left: 200px;
+    text-align: center;
+}
+#f3{
+    width: fit-content;
+    margin-left: 466px;
+   
+}
+#f4{
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+
+}
+
+#green{
+    height: 14px;
+    margin-right: 6px;
+}
+}
